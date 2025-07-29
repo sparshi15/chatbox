@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>College Timetable Chatbot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f2f5;
+      padding: 30px;
+    }
+    .chatbox {
+      max-width: 700px;
+      margin: auto;
+      background: white;
+      border-radius: 10px;
+      padding: 20px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: #2a9d8f;
+    }
+    .chatlog {
+      border: 1px solid #ccc;
+      height: 300px;
+      overflow-y: auto;
+      margin: 20px 0;
+      padding: 10px;
+      background: #fafafa;
+      border-radius: 5px;
+    }
+    .user, .bot {
+      margin: 8px 0;
+    }
+    .user {
+      text-align: right;
+      color: #2a9d8f;
+    }
+    .bot {
+      text-align: left;
+      color: #264653;
+    }
+    input[type="text"], input[type="file"] {
+      width: 75%;
+      padding: 10px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      padding: 10px 15px;
+      margin-left: 5px;
+      border: none;
+      background-color: #2a9d8f;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #21867a;
+    }
+  </style>
+</head>
+<body>
+  <div class="chatbox">
+    <h2>📚 College Timetable Chatbot</h2>
+
+    <!-- Upload JSON -->
+    <div style="margin-bottom: 20px;">
+      <input type="file" id="fileInput">
+      <button onclick="uploadFile()">Upload Timetable</button>
+    </div>
+
+    <!-- Chat Log -->
+    <div class="chatlog" id="chatlog"></div>
+
+    <!-- User Input -->
+    <input type="text" id="userInput" placeholder="Ask about your class schedule...">
+    <button onclick="sendMessage()">Send</button>
+  </div>
+
+  <script>
+    async function sendMessage() {
+      const input = document.getElementById("userInput");
+      const message = input.value.trim();
+      if (!message) return;
+
+      const chatlog = document.getElementById("chatlog");
+      chatlog.innerHTML += `<div class='user'>🧑‍🎓 You: ${message}</div>`;
+      input.value = "";
+
+      try {
+        const response = await fetch("http://127.0.0.1:8000/chat/", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ message: message })
+        });
+
+        const data = await response.json();
+        chatlog.innerHTML += `<div class='bot'>🤖 Bot: ${data.reply}</div>`;
+        chatlog.scrollTop = chatlog.scrollHeight;
+      } catch (error) {
+        chatlog.innerHTML += `<div class='bot'>❌ Error: Could not connect to the server.</div>`;
+      }
+    }
+
+    async function uploadFile() {
+      const fileInput = document.getElementById("fileInput");
+      const file = fileInput.files[0];
+      if (!file) return alert("Please select a JSON file first.");
+
+      const formData = new FormData();
+      formData.append("file", file);
+
+      try {
+        const response = await fetch("http://127.0.0.1:8000/upload-timetable/", {
+          method: "POST",
+          body: formData
+        });
+
+        const result = await response.json();
+        alert(result.message || result.error || "Uploaded successfully.");
+      } catch (error) {
+        alert("❌ Failed to upload timetable. Make sure FastAPI is running.");
+      }
+    }
+  </script>
+</body>
+</html>
+
+
