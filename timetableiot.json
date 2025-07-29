@@ -1,0 +1,33 @@
+[
+  {"day": "Monday", "time": "09:00-10:00", "subject_code": "3230521", "subject": "Programming in Java", "faculty": "Dr. Aditya Dubey", "room": "M003"},
+  {"day": "Monday", "time": "10:00-11:00", "subject_code": "3230522", "subject": "Data Sciences in IoT", "faculty": "Dr. Dhananjay Bisen", "room": "M003"},
+  {"day": "Monday", "time": "11:00-12:00", "subject_code": "3230523", "subject": "Theory of Computation", "faculty": "Prof. Vinay Gupta", "room": "M003"},
+  {"day": "Monday", "time": "02:00-03:00", "subject_code": "NEC", "subject": "Concurrent Field/Lab", "faculty": "Unknown", "room": "F"},
+
+  {"day": "Tuesday", "time": "09:00-10:00", "subject_code": "3230525", "subject": "Cloud Computing", "faculty": "Prof. Rinki Pakshwar", "room": "M003"},
+  {"day": "Tuesday", "time": "10:00-11:00", "subject_code": "3230522", "subject": "Data Sciences in IoT Lab", "faculty": "Dr. Dhananjay Bisen / Dr. Murli Manohar", "room": "M005"},
+  {"day": "Tuesday", "time": "11:00-12:00", "subject_code": "3230524", "subject": "IoT System Design Lab", "faculty": "Dr. Priyanka Garg / Dr. Namita Arya", "room": "M007"},
+  {"day": "Tuesday", "time": "02:00-03:00", "subject_code": "3230523", "subject": "Theory of Computation", "faculty": "Prof. Vinay Gupta", "room": "M003"},
+  {"day": "Tuesday", "time": "03:00-04:00", "subject_code": "3230524", "subject": "IoT System Design", "faculty": "Dr. Priyanka Garg", "room": "M003"},
+  {"day": "Tuesday", "time": "04:00-05:00", "subject_code": "3230527", "subject": "Seminar/Self-learning", "faculty": "Dr. Abhishek Narwaria / Dr. Rupam Shrivastava", "room": "M003"},
+
+  {"day": "Wednesday", "time": "09:00-10:00", "subject_code": "3230521", "subject": "Programming in Java", "faculty": "Dr. Aditya Dubey", "room": "M003"},
+  {"day": "Wednesday", "time": "10:00-11:00", "subject_code": "3230525", "subject": "Cloud Computing", "faculty": "Prof. Rinki Pakshwar", "room": "M003"},
+  {"day": "Wednesday", "time": "11:00-12:00", "subject_code": "3230524", "subject": "IoT System Design", "faculty": "Dr. Priyanka Garg", "room": "M003"},
+
+  {"day": "Thursday", "time": "09:00-10:00", "subject_code": "3230524", "subject": "IoT System Design", "faculty": "Dr. Priyanka Garg", "room": "M003"},
+  {"day": "Thursday", "time": "10:00-11:00", "subject_code": "3230525", "subject": "Cloud Computing", "faculty": "Prof. Rinki Pakshwar", "room": "M003"},
+  {"day": "Thursday", "time": "11:00-12:00", "subject_code": "3230522", "subject": "Data Sciences in IoT", "faculty": "Dr. Dhananjay Bisen", "room": "M003"},
+  {"day": "Thursday", "time": "02:00-03:00", "subject_code": "3230521", "subject": "Programming in Java Lab", "faculty": "Dr. Aditya Dubey / Prof. Rinki Pakshwar", "room": "M005"},
+  {"day": "Thursday", "time": "03:00-04:00", "subject_code": "3230526", "subject": "Minor Project-1", "faculty": "Dr. Nookala Venu / Dr. Namita Arya", "room": "M007"},
+
+  {"day": "Friday", "time": "09:00-10:00", "subject_code": "3230521", "subject": "Programming in Java", "faculty": "Dr. Aditya Dubey", "room": "M003"},
+  {"day": "Friday", "time": "10:00-11:00", "subject_code": "3230522", "subject": "Data Sciences in IoT", "faculty": "Dr. Dhananjay Bisen", "room": "M003"},
+  {"day": "Friday", "time": "11:00-12:00", "subject_code": "3230523", "subject": "Theory of Computation", "faculty": "Prof. Vinay Gupta", "room": "M003"},
+  {"day": "Friday", "time": "02:00-03:00", "subject_code": "3230521", "subject": "Programming in Java Lab", "faculty": "Dr. Aditya Dubey / Prof. Rinki Pakshwar", "room": "M005"},
+  {"day": "Friday", "time": "03:00-04:00", "subject_code": "3230524", "subject": "IoT System Design Lab", "faculty": "Dr. Priyanka Garg / Dr. Namita Arya", "room": "M007"},
+  {"day": "Friday", "time": "04:00-05:00", "subject_code": "3230522", "subject": "Data Sciences in IoT Lab", "faculty": "Dr. Dhananjay Bisen / Dr. Murli Manohar", "room": "M205"},
+  {"day": "Friday", "time": "05:00-06:00", "subject_code": "3230526", "subject": "Minor Project-1", "faculty": "Dr. Nookala Venu / Dr. Namita Arya", "room": "M007"},
+
+  {"day": "Saturday", "time": "09:00-10:00", "subject_code": "1000006", "subject": "Disaster Management", "faculty": "Dr. Nookala Venu", "room": "Online"}
+]

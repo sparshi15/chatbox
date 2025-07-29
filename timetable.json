@@ -1,0 +1,26 @@
+[
+  {"day": "Monday", "time": "10:00-11:00", "subject_code": "2250523", "subject": "Computer Networks", "faculty": "Unknown", "room": "RM-102"},
+  {"day": "Monday", "time": "11:00-12:00", "subject_code": "2250525", "subject": "Optimization Techniques", "faculty": "Dr. V.P. Shinde", "room": "RM-102"},
+  {"day": "Monday", "time": "12:00-1:00", "subject_code": "2250522", "subject": "Scientific Research Writing", "faculty": "Dr. Divya Chaturvedi", "room": "SH-10"},
+  {"day": "Monday", "time": "1:00-2:00", "subject_code": "2250521", "subject": "Data Analysis Skills", "faculty": "Dr. D K Jain", "room": "SH-10"},
+  {"day": "Monday", "time": "2:00-3:00", "subject_code": "2250524", "subject": "Basics and Applications of Mathematica", "faculty": "Dr. A. K. Ray", "room": "RM-101"},
+  {"day": "Monday", "time": "3:00-4:00", "subject_code": "NEC", "subject": "Lab or Unspecified", "faculty": "Unknown", "room": "MAC-LAB"},
+
+  {"day": "Tuesday", "time": "10:00-11:00", "subject_code": "2250525", "subject": "Optimization Techniques", "faculty": "Dr. V.P. Shinde", "room": "SH-10"},
+  {"day": "Tuesday", "time": "11:00-12:00", "subject_code": "2250524", "subject": "Basics and Applications of Mathematica", "faculty": "Dr. A. K. Ray", "room": "SH-9"},
+  {"day": "Tuesday", "time": "12:00-1:00", "subject_code": "2250521", "subject": "Data Analysis Skills", "faculty": "Dr. D K Jain", "room": "RM-101"},
+  {"day": "Tuesday", "time": "1:00-2:00", "subject_code": "NEC", "subject": "Lab or Unspecified", "faculty": "Unknown", "room": "SH-09"},
+
+  {"day": "Wednesday", "time": "10:00-11:00", "subject_code": "2250524", "subject": "Basics and Applications of Mathematica", "faculty": "Dr. A. K. Ray", "room": "SH-9"},
+  {"day": "Wednesday", "time": "11:00-12:00", "subject_code": "2250522", "subject": "Scientific Research Writing", "faculty": "Dr. Divya Chaturvedi", "room": "SH-9"},
+  {"day": "Wednesday", "time": "12:00-1:00", "subject_code": "2250523", "subject": "Computer Networks", "faculty": "Unknown", "room": "RM-101"},
+
+  {"day": "Thursday", "time": "10:00-11:00", "subject_code": "2250525", "subject": "Optimization Techniques", "faculty": "Dr. V.P. Shinde", "room": "SH-10"},
+  {"day": "Thursday", "time": "11:00-12:00", "subject_code": "2250522", "subject": "Scientific Research Writing", "faculty": "Dr. Divya Chaturvedi", "room": "SH-10"},
+  {"day": "Thursday", "time": "12:00-1:00", "subject_code": "1000006", "subject": "Disaster Management", "faculty": "Dr. Vijay S. Sharma", "room": "Unknown"},
+
+  {"day": "Friday", "time": "10:00-11:00", "subject_code": "2250523", "subject": "Computer Networks", "faculty": "Unknown", "room": "SH-9"},
+  {"day": "Friday", "time": "11:00-12:00", "subject_code": "2250522", "subject": "Scientific Research Writing", "faculty": "Dr. Divya Chaturvedi", "room": "SH-10"},
+  {"day": "Friday", "time": "12:00-1:00", "subject_code": "2250525", "subject": "Optimization Techniques", "faculty": "Dr. V.P. Shinde", "room": "SH-9"},
+  {"day": "Friday", "time": "1:00-2:00", "subject_code": "2250521", "subject": "Data Analysis Skills", "faculty": "Dr. D K Jain", "room": "SH-10"}
+]
